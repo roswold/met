@@ -63,6 +63,7 @@ void quit(void)
 	if(snd)
 		Mix_FreeChunk(snd);
 	Mix_Quit();
+	exit(0);
 }
 
 void init(void)
